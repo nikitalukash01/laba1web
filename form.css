@@ -1,0 +1,170 @@
+@font-face{
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+  margin: 0 0;
+  padding: 0 0;
+}
+header{
+width: 100%;
+height: 60px;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+}
+div.abox{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 304.37px;
+max-width: 304.37px;
+height: auto;
+}
+a{
+font-family: 'Roboto', sans-serif;
+color: black;
+text-decoration-line: none;
+font-size: 12.883px;
+}
+
+img.brandlogo{
+height: 26.84px;
+max-width: 253.91px;
+}
+
+div.searchbox{
+width: 70.32px;
+max-width: 70.32px;
+height: 12.88px;
+font-size: 12.83px;
+}
+.bagp{
+  width: 566.87px;
+  max-width: 566.87;
+}
+.bagtext1{
+font-family: 'Roboto', sans-serif;
+font-size: 21.4722px;
+font-style: normal;
+font-weight: normal;
+line-height: 26px;
+letter-spacing: 0.04em;
+}
+.bagtext2{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12.8833px;
+line-height: 13px;
+color: #8C8C8C;
+}
+div.bag{
+width: 566.87px;
+max-width: 566.87px;
+margin: 88.57px 489.57px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: auto;
+}
+p.bagp{
+width: 566.87px;
+height: 37.58px;
+left: 489.57px;
+top: 88.57px;
+border-bottom: 1px solid #D8D8D8;
+}
+div.itembox1{
+width: 100%;
+max-width: 566.87px;
+height: 340.87px;
+position: relative;
+margin-top: 158.36px;
+display: flex;
+flex-direction: row;
+border-bottom: 1px solid #D8D8D8;
+}
+img.productImage{
+max-width: 100%;
+height: 246.93px;
+display: block;
+}
+div.prodimgblock{
+height: 246.93px;
+}
+div.description{
+width: 100%;
+max-width: 395.09px; 
+float: right;
+}
+p.shoedescriprion{
+  width: 100%;
+  max-width: 297.39px;
+  height: 51.53px;
+  margin-left: 683px;
+  top: 163px;
+}
+span.jrnmax{
+  width: 100%;
+  max-width: 297.39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.1778px;
+  letter-spacing: 0.04em;
+  color: #000F08;
+  margin-left: 21.65px;
+}
+span.price{
+  margin-left: 21.65px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8833px;
+  color: gray;
+  margin-top: 16.83px;
+}
+img.drop-downimage{
+width: 100%;
+max-width: 12.88px;
+height:12.88px ;
+}
+span.colorweapon{
+font-weight: 300;
+margin-left: 21.65px;
+color:000F08;
+width: 100%;
+max-width: 89.65px;
+}
+span.sizeweapon{
+  font-weight: 300;
+  margin-left: 21.65px;
+  color:000F08;
+  width: 100%;
+  max-width: 40.8px; 
+}
+span.quantityweapon{
+  font-weight: 300;
+  margin-left: 21.65px;
+  color:000F08;
+  width: 100%;
+  max-width: 74.08px;
+}
+p.classp{
+  margin-top: 30.6px;
+}
+p.subp{
+  margin-top: 9px;
+}
+div.data{
+  float: right;
+}
+
+

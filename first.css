@@ -4,8 +4,9 @@ src: url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap")
 font-family: Rubik Mono One;
 font-style: normal;
 font-weight: normal;
-font-size: 48px; 
+font-size: 48px;
 }
+
 @font-face{
 src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 font-family: Roboto;
@@ -15,19 +16,22 @@ font-size: 36px;
 }
 
 @font-face{
-src: url("https://fonts.googleapis.com/css2?family=Roboto&family=Saira+Condensed:wght@500&display=swap");
-font-family: 'Saira Condensed';
-font-style: normal;
-font-weight: 500;
-
+	src: url("https://fonts.googleapis.com/css2?family=Roboto&family=Saira+Condensed:wght@500&display=swap");
+	font-family: 'Saira Condensed';
+	font-style: normal;
+	font-weight: 500;
 }
 
-img.jordanhead{
+body {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.jordanhead{
 width: 100%;
 height: auto;
 display: block;
 }
-
 
 *{
 margin: 0;
@@ -38,7 +42,7 @@ background-color: black;
 
 .header {
 background-color: #120B0A;
-width: auto;
+width: 100%;
 height: 100px;
 display: flex;
 justify-content: space-between;
@@ -47,19 +51,19 @@ position: relative;
 padding: 0 15px;
 }
 .cart{
-  max-width: 40px;
+  max-width:40px ;
   max-height: 40px;
   margin-right: 4px;
 }
 .list{
   background-color: #ffffff;
-  height: 198px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
+
 .jordan2{
   display: block;
   width: 100%;
@@ -71,7 +75,7 @@ padding: 0 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.9em;    
+  font-size: 1.9em;
   color: black;
   background-color: #fff;
   display: inline-block;
@@ -80,13 +84,13 @@ padding: 0 15px;
   .main {
   min-height: 1000px;
   width: 100%;
-  
+
 }
 
-p.flight{
+.flight{
   font-family: 'Saira Condensed';
   font-style: normal;
-  font-weight: 500;    
+  font-weight: 500;
   font-size: 4vw;
   color: #ffffff;
   text-align: center;
@@ -95,23 +99,21 @@ p.flight{
   width: 100%;
 }
 
-div.wrapper{
+.wrapper{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   width: 75%;
   margin: 0 auto;
   grid-template-rows: auto;
   grid-gap: 35px;
 }
 
-div.weaponblock{ 
+.weaponblock{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
-
-
 
 footer{
   margin-top: 50px;
@@ -128,47 +130,68 @@ img.footlog{
   width: 100%;
   height: auto;
 }
-  
-  img.location{
+
+  .location{
   display: block;
   width: 100%;
   height: auto;
 }
 
-  img.contacts{
+  .contacts{
   display: block;
   width: 100%;
   height: auto;
 }
-  img.socialnet{
+  .socialnet{
   display: block;
   width: 100%;
   height: auto;
 }
-  img.weapon{
-  display: block; 
-  width: 100%; 
+  .weapon{
+  display: block;
+  width: 100%;
   height: auto;
   }
-  span.describe{
+  .describe{
     font-size: 1.4em;
-    color: #ffffff; 
+    color: #ffffff;
   }
 
-
-@media screen and (min-width:1000px){
-.wrapper{
-  grid-template-columns:repeat(3,1fr) !important;
-  }
-}
-@media screen and (min-width:800px){
+@media screen and (max-width: 800px){
   .wrapper{
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (max-width:600px){
+
+@media screen and (max-width: 600px){
   .wrapper{
     grid-template-columns: 1fr;
   }
 }
 
+@media screen and (max-width:375px){
+.list a{
+  font-size: 1.35em;    
+}
+.header{
+  align-items: center;
+  padding: 0 10px;
+}
+img.inst{
+width: 9%;
+}
+img.cart{
+  width: 40%;
+}
+div.box1{
+
+}
+img.jordanhead{
+  width: 100%;
+}
+div.jordanheadbox{
+  margin: 0 15px;
+  margin-left: 15px;
+  width: 75%;
+}
+}
